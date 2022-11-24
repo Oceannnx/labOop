@@ -21,8 +21,6 @@ class Human(GamePeice):
         self.height = height    #Your code here set object varibale height = height
         self.item = Fist(3.0)
 
-
-
 class Swordman(Human):
     
     def __init__(self,height,swardHitPower,length):        
